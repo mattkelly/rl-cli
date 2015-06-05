@@ -91,6 +91,7 @@ static void _interactive()
         line  = readline(PROMPT); 
         if (line)
         {
+            add_history(line);
             _execute_command(line);
             free(line);
         }
