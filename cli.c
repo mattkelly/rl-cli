@@ -1,5 +1,5 @@
-#include<readline/readline.h>
-#include<readline/history.h>
+#include <readline/readline.h>
+#include <readline/history.h>
 
 #include <string.h>
 #include <stdbool.h>
